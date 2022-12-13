@@ -1,0 +1,2 @@
+# SimpleSpawnNukkit
+Pomysł zostaje porzucony!
