@@ -1,0 +1,30 @@
+#---------------------------------------------------------------
+#         Simple Spawn plugin
+#           by: IndianPL
+#           for colors use &
+#---------------------------------------------------------------
+#Spawn messages
+#if you set "spawn-after-death-always" to true the plugin will not look if the player has a bed or not
+Telport-cooldown: 3
+Spawn:
+  Message: "&aTeleported to spawn"
+  tp-player: "&aTeleport player &e<cel> &ato spawn&c!"
+  admin-tp: "&aAdmin teleported you to spawn&c!"
+  teleport-in: "&aTeleportation will take place in &b3&a seconds&c!"
+  canceled-teleport: "&cYou moved! This resulted in the teleport being canceled"
+  set: "&aSpawn has been set"
+  cancel-on-move: true
+  spawn-after-death-always: false
+#Perms messages
+Perms:
+  admin: "&cYou don't have permisions"
+#Player messages
+Player:
+ null: "&cPlayer don't exsist"
+ not-be: "&cYou must be a player"
+#Spawn coords
+Spawn-coords:
+ x: 0
+ y: 90
+ z: 0
+

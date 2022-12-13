@@ -1,0 +1,12 @@
+main: me.indian.pl.simplespawn.SimpleSpawn
+name: SimpleSpawnNukkit
+author: IndianPL
+description: Simple spawn
+version: 1.0.0
+api: [ "1.0.14" ]
+commands:
+  setspawn:
+    description:
+
+  spawn:
+    description:
